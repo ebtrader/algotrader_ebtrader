@@ -40,6 +40,7 @@ class StockSimulator:
         self.atr_formatted = 0
         self.pnl = 0
         self.last_signal = 'NONE'
+        
 
     # This is the simulator that executes all the methods
     def simulator(self):
