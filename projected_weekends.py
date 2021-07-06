@@ -200,8 +200,8 @@ etf_df = pd.DataFrame(etf_data)
 recent_etf = etf_df['Close'].iloc[-1]
 # print(recent_etf)
 df2['etf'] = recent_etf
-df2['etf_upper'] = df2['etf']*(1 + df2['dist_to_upper'])
-df2['etf_line'] = df2['etf']*(1 + df2['dist_to_line'])
+df2['etf_upper'] = df2['etf']*(1 + df2['dist_to_upper']*3)
+df2['etf_line'] = df2['etf']*(1 + df2['dist_to_line']*3)
 
 # selected_range = df2[['date', 'upper_band', 'lower_band', 'Line']].tail(21)
 selected_range = df2[['date', 'etf', 'etf_line', 'etf_upper']].tail(21)
