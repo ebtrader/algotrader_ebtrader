@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0237507c-c771-4faa-b635-ed979631d914" name="Default Changelist" comment="Commit" />
+    <list default="true" id="0237507c-c771-4faa-b635-ed979631d914" name="Default Changelist" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/IBKR/WMA.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +32,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jsidd\PycharmProjects\algotrader_ebtrader\IBKR" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.projected_candles_WMA9_weekly">
     <configuration name="gauss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -232,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627215351761</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit">
+      <created>1627551019632</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627551019632</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
